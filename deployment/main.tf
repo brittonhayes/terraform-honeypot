@@ -27,5 +27,4 @@ resource "fakewebservices_database" "prod-databases" {
 
   name = each.key
   size = 256
-  vpc = fakewebservices_vpc.primary_vpc
 }
