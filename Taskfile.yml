@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  fmt:
+    desc: "Format terraform files"
+    dir: deploy
+    cmds:
+      - terraform fmt
+
+  deploy:
+    desc: "Deploy infra with terraform"
+    dir: deploy
+    cmds:
+      - terraform apply -auto-approve
