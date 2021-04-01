@@ -16,13 +16,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [fakewebservices_database.databases](https://registry.terraform.io/providers/hashicorp/fakewebservices/latest/docs/resources/database) | resource |
+| [fakewebservices_server.prod_servers](https://registry.terraform.io/providers/hashicorp/fakewebservices/latest/docs/resources/server) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_databases"></a> [databases](#input\_databases) | n/a | <pre>map(object({<br>	name = string<br>	size = number<br>  }))</pre> | n/a | yes |
+| <a name="input_instances"></a> [instances](#input\_instances) | The list of server names | <pre>map(object({<br>	name = string<br>	vpc = string<br>	size = string<br>  }))</pre> | n/a | yes |
 
 ## Outputs
 

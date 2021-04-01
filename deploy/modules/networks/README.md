@@ -16,13 +16,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [fakewebservices_database.databases](https://registry.terraform.io/providers/hashicorp/fakewebservices/latest/docs/resources/database) | resource |
+| [fakewebservices_vpc.primary_vpc](https://registry.terraform.io/providers/hashicorp/fakewebservices/latest/docs/resources/vpc) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_databases"></a> [databases](#input\_databases) | n/a | <pre>map(object({<br>	name = string<br>	size = number<br>  }))</pre> | n/a | yes |
+| <a name="input_vpcs"></a> [vpcs](#input\_vpcs) | n/a | <pre>map(object({<br>	name = string<br>	cidr_block = string<br>  }))</pre> | n/a | yes |
 
 ## Outputs
 
