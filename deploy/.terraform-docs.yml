@@ -1,0 +1,11 @@
+formatter: markdown-document
+sort:
+  enabled: true
+  by:
+    - required
+settings:
+  indent: 4
+  escape: false
+  default: false
+  required: false
+  type: true
